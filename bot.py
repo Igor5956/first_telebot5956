@@ -31,7 +31,7 @@ def get_text_messages(message):
     if message.text == '/1':
         bot.send_message(message.chat.id, 'Что такое язык программирования?\n/one Язык программирования  формальный язык, предназначенный для записи компьютерных программ.\n/two Это язык разметки')
     if message.text == '/one':
-        bot.send_message(message.chat.id, 'Верно! Починете мне принтер? Вы же программист. Может тогда взломаете мне чужой вк? ')
+        bot.send_message(message.chat.id, 'Верно! Починете мне принтер? Вы же программист, нет? Может тогда взломаете мне чужой вк? ')
         true_answer += 1
     elif message.text == '/two':
         bot.send_message(message.chat.id, 'Нет, не верно')
