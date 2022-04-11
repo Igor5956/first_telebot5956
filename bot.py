@@ -36,7 +36,7 @@ def callback(call):
     if call.data == 'yes':
         if d[num_question] == 'да':
             bot.send_message(call.message.chat.id, 'Все верно, молодец')
-        elif d[num_question]]
+        else:
             bot.send_message(call.message.chat.id, 'Неверно...')
     if call.data == 'no':
         if d[num_question] == 'нет':
